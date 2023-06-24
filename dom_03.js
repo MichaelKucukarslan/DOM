@@ -1,5 +1,5 @@
-function alertFunction(){
-    alert("Named Function!");
+function alertFunction(e){
+    alert("Named Function! " + e.blur);
 }
 
 const button = document.getElementById("button");
